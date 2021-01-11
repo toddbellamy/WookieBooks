@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "WookieBooks.Domain/1.0.0": {
+        "dependencies": {
+          "WookieBooks.DomainFramework": "1.0.0"
+        },
+        "runtime": {
+          "WookieBooks.Domain.dll": {}
+        }
+      },
+      "WookieBooks.DomainFramework/1.0.0": {
+        "runtime": {
+          "WookieBooks.DomainFramework.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WookieBooks.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WookieBooks.DomainFramework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

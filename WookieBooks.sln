@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WookieBooks.WebApi", "WookieBooks.WebApi\WookieBooks.WebApi.csproj", "{E85DB8A7-CEF2-491A-BE34-EE566B20B07D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WookieBooks.Data", "WookieBooks.Data\WookieBooks.Data.csproj", "{A0F3BB3D-1CF3-4D88-82F8-876CA051D43D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WookieBooks.Domain", "WookieBooks.Domain\WookieBooks.Domain.csproj", "{530D254D-85CB-4FD3-90DF-AF5E9F3CA201}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WookieBooks.DomainFramework", "WookieBooks.Framework\WookieBooks.DomainFramework.csproj", "{0F0B2747-E78B-4D96-B9E1-8EA47ABBB197}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WookieBooks.Tests", "WookieBooks.Tests\WookieBooks.Tests.csproj", "{CEFFEFA5-09D9-4CED-AF79-B92A9D2DB725}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E85DB8A7-CEF2-491A-BE34-EE566B20B07D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E85DB8A7-CEF2-491A-BE34-EE566B20B07D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E85DB8A7-CEF2-491A-BE34-EE566B20B07D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E85DB8A7-CEF2-491A-BE34-EE566B20B07D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0F3BB3D-1CF3-4D88-82F8-876CA051D43D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0F3BB3D-1CF3-4D88-82F8-876CA051D43D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0F3BB3D-1CF3-4D88-82F8-876CA051D43D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0F3BB3D-1CF3-4D88-82F8-876CA051D43D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{530D254D-85CB-4FD3-90DF-AF5E9F3CA201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{530D254D-85CB-4FD3-90DF-AF5E9F3CA201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{530D254D-85CB-4FD3-90DF-AF5E9F3CA201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{530D254D-85CB-4FD3-90DF-AF5E9F3CA201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F0B2747-E78B-4D96-B9E1-8EA47ABBB197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F0B2747-E78B-4D96-B9E1-8EA47ABBB197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F0B2747-E78B-4D96-B9E1-8EA47ABBB197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F0B2747-E78B-4D96-B9E1-8EA47ABBB197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEFFEFA5-09D9-4CED-AF79-B92A9D2DB725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEFFEFA5-09D9-4CED-AF79-B92A9D2DB725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEFFEFA5-09D9-4CED-AF79-B92A9D2DB725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEFFEFA5-09D9-4CED-AF79-B92A9D2DB725}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E2AE5B8-F630-4FCD-A326-583334E79250}
+	EndGlobalSection
+EndGlobal

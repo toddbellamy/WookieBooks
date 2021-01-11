@@ -1,0 +1,239 @@
+{
+	"info": {
+		"_postman_id": "7103e4d2-a7c5-44e1-adb1-b7d2f97bbb1f",
+		"name": "WookieBooks",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Post Book",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": \"3fa85f64-5717-4562-b3fc-2c963f66afa3\",\r\n  \"authorId\": \"14a3df1e-8b83-45e5-aae9-6af3cd6b1cf1\",\r\n  \"title\": \"Millenium Falcon Technical Manual\",\r\n  \"authorFirstName\": \"Jane\",\r\n  \"authorLastName\": \"Wordings\",\r\n  \"price\": 89.98\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/books",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Books",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/books/list?Page=1&PageSize=10",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"books",
+						"list"
+					],
+					"query": [
+						{
+							"key": "Page",
+							"value": "1"
+						},
+						{
+							"key": "PageSize",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Authors",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/authors/list?Page=1&PageSize=10",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"authors",
+						"list"
+					],
+					"query": [
+						{
+							"key": "Page",
+							"value": "1"
+						},
+						{
+							"key": "PageSize",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put Title",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": \"2fa85f64-5717-4562-b3fc-2c963f66afa2\",\r\n  \"text\": \"New Book Two Title\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/books/title",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"books",
+						"title"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put Description",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": \"2fa85f64-5717-4562-b3fc-2c963f66afa2\",\r\n  \"text\": \"Updated Book 2 Description\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/books/description",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"books",
+						"description"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Book",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/books/1fa85f64-5717-4562-b3fc-2c963f66afa1\n",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"books",
+						"1fa85f64-5717-4562-b3fc-2c963f66afa1\n"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put Cover Image",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "1fa85f64-5717-4562-b3fc-2c963f66afa1",
+							"type": "text"
+						},
+						{
+							"key": "imageFile",
+							"type": "file",
+							"src": "/C:/Sandbox/repos/WookieBooks/mybookcover.jpg"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/books/coverimage",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"books",
+						"coverimage"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Cover Image",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/books/coverimage/1fa85f64-5717-4562-b3fc-2c963f66afa1\n",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"books",
+						"coverimage",
+						"1fa85f64-5717-4562-b3fc-2c963f66afa1\n"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

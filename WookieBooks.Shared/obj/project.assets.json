@@ -1,0 +1,101 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "WookieBooks.DomainFramework/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/WookieBooks.DomainFramework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WookieBooks.DomainFramework.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WookieBooks.DomainFramework/1.0.0": {
+      "type": "project",
+      "path": "../WookieBooks.Framework/WookieBooks.DomainFramework.csproj",
+      "msbuildProject": "../WookieBooks.Framework/WookieBooks.DomainFramework.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "WookieBooks.DomainFramework >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\toddb\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Sandbox\\repos\\WookieBooks\\WookieBooks.Shared\\WookieBooks.Shared.csproj",
+      "projectName": "WookieBooks.Shared",
+      "projectPath": "C:\\Sandbox\\repos\\WookieBooks\\WookieBooks.Shared\\WookieBooks.Shared.csproj",
+      "packagesPath": "C:\\Users\\toddb\\.nuget\\packages\\",
+      "outputPath": "C:\\Sandbox\\repos\\WookieBooks\\WookieBooks.Shared\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\toddb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Sandbox\\repos\\WookieBooks\\WookieBooks.Framework\\WookieBooks.DomainFramework.csproj": {
+              "projectPath": "C:\\Sandbox\\repos\\WookieBooks\\WookieBooks.Framework\\WookieBooks.DomainFramework.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project WookieBooks.DomainFramework is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project WookieBooks.DomainFramework supports: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "WookieBooks.DomainFramework",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

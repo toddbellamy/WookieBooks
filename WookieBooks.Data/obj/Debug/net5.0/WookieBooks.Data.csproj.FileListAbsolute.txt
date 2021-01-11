@@ -1,0 +1,17 @@
+C:\Sandbox\repos\WookieBooks\WookieBooks.Data\bin\Debug\net5.0\WookieBooks.Data.deps.json
+C:\Sandbox\repos\WookieBooks\WookieBooks.Data\bin\Debug\net5.0\WookieBooks.Data.dll
+C:\Sandbox\repos\WookieBooks\WookieBooks.Data\bin\Debug\net5.0\ref\WookieBooks.Data.dll
+C:\Sandbox\repos\WookieBooks\WookieBooks.Data\bin\Debug\net5.0\WookieBooks.Data.pdb
+C:\Sandbox\repos\WookieBooks\WookieBooks.Data\bin\Debug\net5.0\WookieBooks.Domain.dll
+C:\Sandbox\repos\WookieBooks\WookieBooks.Data\bin\Debug\net5.0\WookieBooks.DomainFramework.dll
+C:\Sandbox\repos\WookieBooks\WookieBooks.Data\bin\Debug\net5.0\WookieBooks.Domain.pdb
+C:\Sandbox\repos\WookieBooks\WookieBooks.Data\bin\Debug\net5.0\WookieBooks.DomainFramework.pdb
+C:\Sandbox\repos\WookieBooks\WookieBooks.Data\obj\Debug\net5.0\WookieBooks.Data.csprojAssemblyReference.cache
+C:\Sandbox\repos\WookieBooks\WookieBooks.Data\obj\Debug\net5.0\WookieBooks.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Sandbox\repos\WookieBooks\WookieBooks.Data\obj\Debug\net5.0\WookieBooks.Data.AssemblyInfoInputs.cache
+C:\Sandbox\repos\WookieBooks\WookieBooks.Data\obj\Debug\net5.0\WookieBooks.Data.AssemblyInfo.cs
+C:\Sandbox\repos\WookieBooks\WookieBooks.Data\obj\Debug\net5.0\WookieBooks.Data.csproj.CoreCompileInputs.cache
+C:\Sandbox\repos\WookieBooks\WookieBooks.Data\obj\Debug\net5.0\WookieBooks.Data.csproj.CopyComplete
+C:\Sandbox\repos\WookieBooks\WookieBooks.Data\obj\Debug\net5.0\WookieBooks.Data.dll
+C:\Sandbox\repos\WookieBooks\WookieBooks.Data\obj\Debug\net5.0\ref\WookieBooks.Data.dll
+C:\Sandbox\repos\WookieBooks\WookieBooks.Data\obj\Debug\net5.0\WookieBooks.Data.pdb
