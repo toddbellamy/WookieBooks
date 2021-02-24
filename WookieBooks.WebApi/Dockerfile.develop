@@ -1,0 +1,21 @@
+FROM mcr.microsoft.com/dotnet/sdk:5.0
+ARG BUILD_CONFIGURATION=Debug
+ENV ASPNETCORE_ENVIRONMENT=Development
+ENV ASPNETCORE_URLS=http://+:80
+ENV DOTNET_USE_POLLING_FILE_WATCHER=true
+EXPOSE 80
+
+WORKDIR /src
+COPY ["WookieBooks.Data/WookieBooks.Data.csproj", "WookieBooks.Data/"]
+COPY ["WookieBooks.Domain/WookieBooks.Domain.csproj", "WookieBooks.Domain/"]
+COPY ["WookieBooks.Framework/WookieBooks.DomainFramework.csproj", "WookieBooks.Framework/"]
+COPY ["WookieBooks.WebApi/WookieBooks.WebApi.csproj", "WookieBooks.WebApi/"]
+
+RUN dotnet restore "WookieBooks.WebApi/WookieBooks.WebApi.csproj"
+COPY . .
+WORKDIR "/src/WookieBooks.WebApi"
+RUN dotnet build --no-restore "WookieBooks.WebApi.csproj" -c $BUILD_CONFIGURATION
+
+RUN echo "exec dotnet run --no-build --no-launch-profile -c $BUILD_CONFIGURATION --" > /entrypoint.sh
+
+ENTRYPOINT ["/bin/bash", "/entrypoint.sh"]
