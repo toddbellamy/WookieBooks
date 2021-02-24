@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "wookiebookscluster-c608"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "wookiebookscluster-c608"
+  template:
+    metadata:
+      labels:
+        app: "wookiebookscluster-c608"
+    spec:
+      containers:
+        - name: "wookiebookscluster-c608"
+          image: "toddbellamyregistry.azurecr.io/wookiebookscluster"
+          ports:
+          - containerPort: 80
