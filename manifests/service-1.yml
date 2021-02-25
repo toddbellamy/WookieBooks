@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+    name: "wookiebookscluster-6ef8"
+    labels:
+        app: "wookiebookscluster-6ef8"
+spec:
+    type: LoadBalancer
+    ports:
+    - port: 80
+      targetPort: 80
+      protocol: TCP
+      name: http
+    selector:
+        app: "wookiebookscluster-6ef8"
